@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(83, 83, 83);
+    /* width: 100vw; */
+    width: 100%;
+    overflow-x: hidden;
+}
+header{
+    content: " ";
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(background.jpg);
+    width: 100vw;
+    height: 100vh;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.nav{
+    position: relative;
+}
+.optional{
+    position: absolute;
+    right: 250px;
+    top: 23px;
+    width: 123px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(90, 90, 90, 0.5);
+    color: white;
+
+}
+.sign{
+    position: absolute;
+    right: 155px;
+    font-weight: bold;
+    top: 23px;
+    width: 75px;
+    height: 30px;
+    background-color: red;
+    border:2px solid red;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.sign:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(180, 0, 0);
+    border:2px solid rgb(180, 0, 0);
+}
+.heading{
+    /* background-color: blue; */
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    position: absolute;
+    
+}
+.heading h1{
+    /* background-color: blue; */
+    color: white;
+    font-size: 48px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 900;
+}
+.heading p{
+    color:white;
+    font-size: 24px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+.logo{
+    filter:invert(1);
+    width: 146px;
+    height: 50px;
+    position: relative;
+    left: 145px;
+    top: 18px;
+    /* color:red;
+    fill: currentColor; */
+    /* background-color: red; */
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.login button{
+    width: 200px;
+    height:54px;
+    font-size: 30px;
+    font-size: 20px;
+    background-color: red;
+    border:2px solid red;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.login button:hover{
+    cursor: pointer;
+    background-color: rgb(180, 0, 0);
+    border:2px solid rgb(180, 0, 0);
+    /* font-weight: bold; */
+    color: white;
+}
+.login input{
+    width: 400px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgba(70, 70, 70, 0.5);
+    border:1px solid rgb(77, 77, 77);
+    /* outline: none; */
+    padding: 7px;
+    color: white;
+    
+}
+.middle1{
+    background-color: #000000;
+    height: 90vh;
+    width: 100vw;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle1 h1{
+    /* background-color: blue; */
+    color: white;
+    font-size: 48px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 900;
+}
+.middle1 p{
+    color:white;
+    font-size: 24px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+.mid1{
+    display: flex;
+    align-items:center;
+    position: relative;
+    justify-content: space-around;
+}
+.enjoy{
+    padding-top:40px ;
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap:13px;
+}
+.mid1 img{
+    width: 470px;
+    height: 350px;
+    background-image: url(img1.png);
+    background-position: right;
+}
+.middle2{
+    background-color: #000000;
+    height: 90vh;
+    width: 100vw;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle2 h1{
+    /* background-color: blue; */
+    color: white;
+    font-size: 48px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 900;
+}
+.middle2 p{
+    color:white;
+    font-size: 24px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+.mid2{
+    display: flex;
+    align-items:center;
+    position: relative;
+    justify-content: space-around;
+}
+.enjoy2{
+    /* padding-top:40px ; */
+    width: 40vw;
+    /* height: 40vh; */
+    display: flex;
+    flex-direction: column;
+    gap:13px;
+    /* background-color: blue; */
+}
+.mid2 img{
+    /* width: 470px; */
+    height: 350px;
+}
+.middle3{
+    background-color: #000000;
+    height: 90vh;
+    width: 100vw;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle3 h1{
+    /* background-color: blue; */
+    color: white;
+    font-size: 48px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 900;
+}
+.middle3 p{
+    color:white;
+    font-size: 24px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+.mid3{
+    display: flex;
+    align-items:center;
+    position: relative;
+    justify-content: space-around;
+}
+.enjoy3{
+    padding-top:40px ;
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap:13px;
+}
+.mid3 img{
+    width: 470px;
+    height: 350px;
+    background-image: url(img2.jpg);
+    background-size:70%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.middle4{
+    background-color: #000000;
+    height: 90vh;
+    width: 100vw;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle4 h1{
+    /* background-color: blue; */
+    color: white;
+    font-size: 48px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 900;
+}
+.middle4 p{
+    color:white;
+    font-size: 24px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+.mid4{
+    display: flex;
+    align-items:center;
+    position: relative;
+    justify-content: space-around;
+}
+.enjoy4{
+    /* padding-top:40px ; */
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap:13px;
+}
+.mid4 img{
+    width: 470px;
+    height: 350px;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 0%);
+    /* color: white; */
+}
+.asked{
+    color: white;
+    font-size: 48px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 900;
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+    padding-top: 60px;
+}
+.line1{
+    background-color: #302f2f;
+    width: 70vw;
+    padding: 22px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line1:hover{
+    cursor: pointer;
+    background-color: #4d4c4c;
+}
+.head{
+    color:white;
+    font-size: 24px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+.line1 img{
+    filter: invert(1);
+    width: 40px;
+    height: 40px;
+}
+.foot{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 60px;
+}
+.foot p{
+    color:white;
+    font-size: 22px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+.footer{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-color: black;
+    color: white;
+    margin-top: 8px;
+    height: 73vh;
+    position: relative;
+}
+.ph{
+    position: absolute;
+    left: 150px;
+    top: 75px;
+}
+.footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.footer ul li{
+    margin: 20px 60px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Segoe UI", Arial, sans-serif;
+    text-decoration: underline;
+}
+.footer ul li:hover{
+    cursor: pointer;
+}
+
+.links{
+    width: 80vw;
+    height: 150px;
+    display: flex;
+    /* background-color: #fff;
+    color: #000000; */
+    position: absolute;
+    left: 90px;
+    top: 100px;
+    overflow-wrap: normal;
+    box-sizing: border-box;
+}
+.optional2{
+    position: absolute;
+    left: 150px;
+    top: 280px;
+    width: 123px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(28, 27, 27, 0.5);
+    color: white;
+
+}
+.last{
+    color:white;
+    font-size: 16px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 150px;
+    top: 330px;
+}
